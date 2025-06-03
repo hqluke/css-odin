@@ -4,24 +4,34 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 600px;
   background: #fff;
   margin: 16px auto;
+  padding: 40px 80px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, ;
 }
 
 .title {
-  background: #e3f4ff;
+ font-size: 28px;
+  margin-bottom: 50px;
 }
 
 .content {
-  background: #e3f4ff;
+  font-size: 24px;
 }
 
 .button-container {
-  background: #e3f4ff;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 260px;
 }
 
 button {
   background: white;
-  border: 1px solid #eee;
+  border: 1px solid #fff;
+  display: block;
+  margin-top: 15px;
+  font-size: 24px;
+  margin-left: -56px;
+  
 }
