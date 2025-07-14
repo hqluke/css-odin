@@ -8,18 +8,95 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content:left;
+  padding-left: 20px;
+  font-size: 32px;
+  font-weight: bolder;
 }
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+a:link{
+  text-decoration: none;
+  color: white;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li{
+  margin-bottom: 30px;
+  margin-left: 80px;
+  width: 200px;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-bottom: 524px;
+  margin-right: 100px;
+  font-size: 20px;
+  padding-right: 200px;
+  padding-left: 20px;
+     flex-shrink: none;
+}
+
+.card{
+  display:flex;
+  border-style: outset;
+  border-radius: 8px;
+  height: 300px;
+  width: 400px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: start;
+  margin-right: 40px;
+  font-size: 20px;
+  margin-bottom: 10px;
+ 
+   flex-shrink: none;
+}
+
+p{
+  margin: 10px;
+}
+
+.cerds{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -180px;
+  margin-right: 80px;
+  margin-top: 60px;
+   flex-shrink: none;
+}
+
+
+.mid{
+  display: flex;
+  justify-content: space-between;
+  width: 1920px;
+     flex-shrink: none;
 }
 
 .card {
